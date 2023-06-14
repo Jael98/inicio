@@ -9,6 +9,7 @@ package inicio;
  *
  * @author Hermi
  */
+import java.util.*;
 public class Inicio {
 
     /**
@@ -16,9 +17,16 @@ public class Inicio {
      */
     public static void main(String[] args) {
        
-        
+        Scanner cn=new Scanner(System.in);
         tarea6 miCarrito=new tarea6();
-        miCarrito.aplicarDescuento(100, 5);
+        double precio=0;
+        int cantidad=0;
+        System.out.println("Ingrese Precio Producto: ");
+        precio=cn.nextDouble();
+        System.out.println("Ingrese Cantidad: ");
+        cantidad=cn.nextInt();
+       // miCarrito.calcularDescuento(precio, cantidad);
+        
     }
     
 }

@@ -19,13 +19,8 @@ public class Inicio {
        
         Scanner cn=new Scanner(System.in);
         tarea6 miCarrito=new tarea6();
-        double precio=0;
-        int cantidad=0;
-        System.out.println("Ingrese Precio Producto: ");
-        precio=cn.nextDouble();
-        System.out.println("Ingrese Cantidad: ");
-        cantidad=cn.nextInt();
-       // miCarrito.calcularDescuento(precio, cantidad);
+        miCarrito.aplicarDescuento(100, 5);
+     
         
     }
     
